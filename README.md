@@ -1,4 +1,4 @@
-### <span style="color:blue;">Dragonite Ore Minecraft Mod</span>
+### <span style="color:purple;">Dragonite Ore Minecraft Mod</span>
 
 #### Introduction
 Dragonite Ore is a Minecraft mod designed to enhance the gameplay experience by introducing new dragon-related features to the game. Our mod adds a variety of items, including ores, ingots, weapons, armor, tools, scales, and a new beacon effect. These additions aim to provide players with a greater sense of accomplishment and incentive to continue playing after defeating the Ender Dragon.
@@ -8,12 +8,12 @@ Dragonite Ore is a Minecraft mod designed to enhance the gameplay experience by 
 - New weapons, armor, and tools with dragon-related abilities
 - Scales dropped from the Ender Dragon for crafting
 - Unique beacon effect
-- Compatible with Minecraft Java Edition 1.12.2
+- Compatible with Minecraft Java Edition 1.20.X
 
 #### Development Tools
 - Forge: Modding platform for Minecraft
 - Java: Programming language
-- Eclipse: Integrated Development Environment (IDE)
+- IntelliJ Community Edition (IDE)
 - Pinta/Microsoft Paint: Tools for creating textures
 
 #### Project Justification
