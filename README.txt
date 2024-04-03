@@ -8,13 +8,13 @@ Features
     New weapons, armor, and tools with dragon-related abilities
     Scales dropped from the Ender Dragon for crafting
     Unique beacon effect
-    Compatible with Minecraft Java Edition 1.12.2
+    Compatible with Minecraft Java Edition 1.20.X
 
 Development Tools
 
     Forge: Modding platform for Minecraft
     Java: Programming language
-    Eclipse: Integrated Development Environment (IDE)
+    IntelliJ Community Edition
     Pinta/Microsoft Paint: Tools for creating textures
 
 Project Justification
