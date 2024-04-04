@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "dragonitemod:block/block_dragon_altar_bottom",
+    "east": "dragonitemod:block/block_dragon_altar_side",
+    "north": "dragonitemod:block/block_dragon_altar_side",
+    "particle": "dragonitemod:block/block_dragon_altar_side",
+    "south": "dragonitemod:block/block_dragon_altar_side",
+    "up": "dragonitemod:block/block_dragon_altar_top",
+    "west": "dragonitemod:block/block_dragon_altar_side"
+  }
+}
