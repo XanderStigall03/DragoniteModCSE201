@@ -12,6 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.user.dragonitemod.block.ModBlocks;
 import net.user.dragonitemod.item.ModCreativeModTabs;
 import net.user.dragonitemod.item.ModItems;
 import org.slf4j.Logger;
@@ -28,6 +29,9 @@ public class DragoniteMod {
 
         // Calls item list to be loaded
         ModItems.register(modEventBus);
+
+        // Calls block list to be loaded
+        ModBlocks.register(modEventBus);
 
         // Calls creative tabs list to be loaded
         ModCreativeModTabs.register(modEventBus);
@@ -49,10 +53,11 @@ public class DragoniteMod {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         // Load custom items into specific creative mode tabs
+        /*
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.SCALE_DRAGON);
             event.accept(ModItems.INGOT_DRAGONITE);
-        }
+        } */
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

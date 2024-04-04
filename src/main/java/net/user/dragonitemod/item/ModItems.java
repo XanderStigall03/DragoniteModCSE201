@@ -13,7 +13,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, DragoniteMod.MOD_ID);
 
-    // Register new items
+    // Create new items
     // Ex: public static final RegistryObject<Item> CODEREFNAME = ITEMS.register("itemidname", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SCALE_DRAGON =
             ITEMS.register("scale_dragon", () -> new Item(new Item.Properties()));

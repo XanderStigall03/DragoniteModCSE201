@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.user.dragonitemod.DragoniteMod;
+import net.user.dragonitemod.block.ModBlocks;
 
 public class ModCreativeModTabs {
 
@@ -24,6 +25,10 @@ public class ModCreativeModTabs {
                         // Load items into mod tab display
                         pOutput.accept(ModItems.SCALE_DRAGON.get());
                         pOutput.accept(ModItems.INGOT_DRAGONITE.get());
+
+                        // Load blocks into mod tab display
+                        pOutput.accept(ModBlocks.ORE_DRAGONITE.get());
+                        pOutput.accept(ModBlocks.BLOCK_DRAGONITE.get());
                     })
                     .build());
 
