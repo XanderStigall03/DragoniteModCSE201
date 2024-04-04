@@ -1,6 +1,7 @@
 package net.user.dragonitemod.item;
 
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SwordItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -24,6 +25,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_DRAGONITE =
             ITEMS.register("raw_dragonite", () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> DRAGONITE_SWORD = ITEMS.register("dragonite_sword",
+            () -> new SwordItem(ModToolTiers.DRAGONITE, 4, 2, new Item.Properties()));
 
     // Creates Custom Item Example
     public static final RegistryObject<Item> METAL_DETECTOR =
