@@ -6,6 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.user.dragonitemod.DragoniteMod;
+import net.user.dragonitemod.item.custom.MetalDetectorItem;
 
 public class ModItems {
 
@@ -23,6 +24,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_DRAGONITE =
             ITEMS.register("raw_dragonite", () -> new Item(new Item.Properties()));
+
+    // Creates Custom Item Example
+    public static final RegistryObject<Item> METAL_DETECTOR =
+            ITEMS.register("metal_detector", () -> new MetalDetectorItem(new Item.Properties().durability(64)));
 
     // Loads items into game
     public static void register(IEventBus eventBus) {
