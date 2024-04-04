@@ -4,6 +4,7 @@
   "item.dragonitemod.ingot_dragonite": "Dragonite Ingot",
   "item.dragonitemod.raw_dragonite": "Dragonite Chunk",
   "item.dragonitemod.metal_detector": "Metal Detector",
+  "item.dragonitemod.dragonite_sword": "Dragonite Sword",
 
   "_comment2": "List of blocks with translations to load names in game",
   "block.dragonitemod.ore_dragonite": "Dragonite Ore",
