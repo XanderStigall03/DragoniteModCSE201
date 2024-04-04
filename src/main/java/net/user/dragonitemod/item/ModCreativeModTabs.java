@@ -32,6 +32,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.ORE_DRAGONITE.get());
                         pOutput.accept(ModBlocks.ORE_ENDSTONE_DRAGONITE.get());
                         pOutput.accept(ModBlocks.BLOCK_DRAGONITE.get());
+                        pOutput.accept(ModBlocks.BLOCK_DRAGON_ALTAR.get());
                     })
                     .build());
 

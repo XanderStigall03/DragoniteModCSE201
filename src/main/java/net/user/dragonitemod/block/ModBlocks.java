@@ -14,6 +14,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.user.dragonitemod.DragoniteMod;
+import net.user.dragonitemod.block.custom.DragonBlock;
 import net.user.dragonitemod.item.ModItems;
 
 import java.util.function.Supplier;
@@ -62,6 +63,10 @@ public class ModBlocks {
     // This block behaves like a normal block and does not drop experience
     public static final RegistryObject<Block> BLOCK_DRAGONITE = registerBlock("block_dragonite",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)));
+
+    // This is a custom block, will play an ender dragon growl when right clicked, maybe give powers?
+    public static final RegistryObject<Block> BLOCK_DRAGON_ALTAR = registerBlock("block_dragon_altar",
+            () -> new DragonBlock(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)));
 
     // Loads blocks into game
     public static void register(IEventBus eventBus) {
