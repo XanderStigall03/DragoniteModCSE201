@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "dragonitemod:block/ore_endstone_dragonite"
+  }
+}

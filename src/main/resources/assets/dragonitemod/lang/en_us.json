@@ -6,6 +6,7 @@
 
   "_comment2": "List of blocks with translations to load names in game",
   "block.dragonitemod.ore_dragonite": "Dragonite Ore",
+  "block.dragonitemod.ore_endstone_dragonite": "Dragonite Endstone Ore",
   "block.dragonitemod.block_dragonite": "Dragonite Block",
 
   "_comment3": "List of creative tabs with translations to load names in game",

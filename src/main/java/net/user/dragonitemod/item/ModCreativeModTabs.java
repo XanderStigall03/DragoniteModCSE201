@@ -29,6 +29,7 @@ public class ModCreativeModTabs {
 
                         // Load blocks into mod tab display
                         pOutput.accept(ModBlocks.ORE_DRAGONITE.get());
+                        pOutput.accept(ModBlocks.ORE_ENDSTONE_DRAGONITE.get());
                         pOutput.accept(ModBlocks.BLOCK_DRAGONITE.get());
                     })
                     .build());

@@ -1,9 +1,13 @@
 package net.user.dragonitemod.block;
 
+import com.mojang.blaze3d.shaders.Uniform;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DropExperienceBlock;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -19,6 +23,8 @@ public class ModBlocks {
     // Creates the array that holds all new blocks
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, DragoniteMod.MOD_ID);
+
+
 
 // Something something allows blocks to drop itself as a block?
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
@@ -37,11 +43,23 @@ public class ModBlocks {
     }
 
 
-    // Creates new block
-    // This one makes a new block called 'ore_dragonite' that behaves like diamond ore
-    public static final RegistryObject<Block> ORE_DRAGONITE = registerBlock("ore_dragonite",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE)));
+    // When adding a block, update needs tools, tool level, texture, item, loot table, blockstates, creative tab, and en_us
 
+
+    // Creates new block
+    // This one makes a new block called 'ore_dragonite' that behaves like diamond ore, also drops experience
+    public static final RegistryObject<Block> ORE_DRAGONITE = registerBlock("ore_dragonite",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE)
+                    .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(6, 10)));
+
+
+    // This block is the actual dragonite that will be used for endstone generation, stone dragonite will not
+    public static final RegistryObject<Block> ORE_ENDSTONE_DRAGONITE = registerBlock("ore_endstone_dragonite",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE).sound(SoundType.STONE)
+                    .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(6, 10)));
+
+
+    // This block behaves like a normal block and does not drop experience
     public static final RegistryObject<Block> BLOCK_DRAGONITE = registerBlock("block_dragonite",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)));
 
