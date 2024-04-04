@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "dragonitemod:ingot_dragonite"
+    }
+  },
+  "result": {
+    "item": "dragonitemod:block_dragonite"
+  }
+}

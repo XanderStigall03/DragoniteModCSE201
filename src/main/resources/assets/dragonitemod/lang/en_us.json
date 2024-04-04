@@ -2,6 +2,7 @@
   "_comment": "List of items with translations to load names in game",
   "item.dragonitemod.scale_dragon": "Dragon Scale",
   "item.dragonitemod.ingot_dragonite": "Dragonite Ingot",
+  "item.dragonitemod.raw_dragonite": "Dragonite Chunk",
 
   "_comment2": "List of blocks with translations to load names in game",
   "block.dragonitemod.ore_dragonite": "Dragonite Ore",

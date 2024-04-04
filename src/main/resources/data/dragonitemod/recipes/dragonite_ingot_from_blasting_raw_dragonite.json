@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "ingot_dragonite",
+  "ingredient": {
+    "item": "dragonitemod:raw_dragonite"
+  },
+  "result": "dragonitemod:ingot_dragonite"
+}

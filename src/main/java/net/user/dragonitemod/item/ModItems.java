@@ -21,8 +21,10 @@ public class ModItems {
     public static final RegistryObject<Item> INGOT_DRAGONITE =
             ITEMS.register("ingot_dragonite", () -> new Item(new Item.Properties()));
 
-    // Loads items into game
+    public static final RegistryObject<Item> RAW_DRAGONITE =
+            ITEMS.register("raw_dragonite", () -> new Item(new Item.Properties()));
 
+    // Loads items into game
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

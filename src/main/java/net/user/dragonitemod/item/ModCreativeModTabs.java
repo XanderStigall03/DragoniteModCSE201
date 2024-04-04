@@ -25,6 +25,7 @@ public class ModCreativeModTabs {
                         // Load items into mod tab display
                         pOutput.accept(ModItems.SCALE_DRAGON.get());
                         pOutput.accept(ModItems.INGOT_DRAGONITE.get());
+                        pOutput.accept(ModItems.RAW_DRAGONITE.get());
 
                         // Load blocks into mod tab display
                         pOutput.accept(ModBlocks.ORE_DRAGONITE.get());
