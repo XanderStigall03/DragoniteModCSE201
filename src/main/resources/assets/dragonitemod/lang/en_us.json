@@ -1,0 +1,9 @@
+{
+  "_comment": "List of items with translations to load names in game",
+  "item.dragonitemod.scale_dragon": "Dragon Scale",
+  "item.dragonitemod.ingot_dragonite": "Dragonite Ingot",
+
+
+  "_comment2": "List of creative tabs with translations to load names in game",
+  "creativetab.dragonite_tab": "Dragonite Mod"
+}
