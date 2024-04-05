@@ -27,7 +27,7 @@ public class ModItems {
             ITEMS.register("raw_dragonite", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> DRAGONITE_SWORD = ITEMS.register("dragonite_sword",
-            () -> new SwordItem(ModToolTiers.DRAGONITE, 4, 2, new Item.Properties()));
+            () -> new SwordItem(ModToolTiers.DRAGONITE, 4, 1, new Item.Properties()));
 
     // Creates Custom Item Example
     public static final RegistryObject<Item> METAL_DETECTOR =
