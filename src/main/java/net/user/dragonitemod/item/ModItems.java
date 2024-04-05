@@ -1,7 +1,6 @@
 package net.user.dragonitemod.item;
 
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -28,6 +27,15 @@ public class ModItems {
 
     public static final RegistryObject<Item> DRAGONITE_SWORD = ITEMS.register("dragonite_sword",
             () -> new SwordItem(ModToolTiers.DRAGONITE, 4, 1, new Item.Properties()));
+
+    public static final RegistryObject<Item> DRAGONITE_AXE = ITEMS.register("dragonite_axe",
+            () -> new AxeItem(ModToolTiers.DRAGONITE, 7, 1, new Item.Properties()));
+
+    public static final RegistryObject<Item> DRAGONITE_SHOVEL = ITEMS.register("dragonite_shovel",
+            () -> new ShovelItem(ModToolTiers.DRAGONITE, 0, 0, new Item.Properties()));
+
+    public static final RegistryObject<Item> DRAGONITE_HOE = ITEMS.register("dragonite_hoe",
+            () -> new HoeItem(ModToolTiers.DRAGONITE, 0, 0, new Item.Properties()));
 
     // Joke item, Jimmy John's Sandwich
     public static final RegistryObject<Item> JIMMY_JOHNS = ITEMS.register("jimmy_johns",

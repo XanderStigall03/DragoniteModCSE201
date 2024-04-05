@@ -27,6 +27,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.METAL_DETECTOR);
 
         handheldItem(ModItems.DRAGONITE_SWORD);
+        handheldItem(ModItems.DRAGONITE_AXE);
+        handheldItem(ModItems.DRAGONITE_SHOVEL);
+        handheldItem(ModItems.DRAGONITE_HOE);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
