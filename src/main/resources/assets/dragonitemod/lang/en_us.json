@@ -6,6 +6,9 @@
   "item.dragonitemod.metal_detector": "Metal Detector",
   "item.dragonitemod.dragonite_sword": "Dragonite Sword",
 
+  "item.dragonitemod.jimmy_johns": "Jimmy Johns",
+  "item.dragonitemod.dragon_stew": "Dragon Stew",
+
   "_comment2": "List of blocks with translations to load names in game",
   "block.dragonitemod.ore_dragonite": "Dragonite Ore",
   "block.dragonitemod.ore_endstone_dragonite": "Dragonite Endstone Ore",

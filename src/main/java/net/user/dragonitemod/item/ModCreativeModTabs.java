@@ -28,6 +28,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.RAW_DRAGONITE.get());
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
                         pOutput.accept(ModItems.DRAGONITE_SWORD.get());
+                        pOutput.accept(ModItems.JIMMY_JOHNS.get());
+                        pOutput.accept(ModItems.DRAGON_STEW.get());
 
                         // Load blocks into mod tab display
                         pOutput.accept(ModBlocks.ORE_DRAGONITE.get());

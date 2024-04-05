@@ -29,6 +29,13 @@ public class ModItems {
     public static final RegistryObject<Item> DRAGONITE_SWORD = ITEMS.register("dragonite_sword",
             () -> new SwordItem(ModToolTiers.DRAGONITE, 4, 1, new Item.Properties()));
 
+    // Joke item, Jimmy John's Sandwich
+    public static final RegistryObject<Item> JIMMY_JOHNS = ITEMS.register("jimmy_johns",
+            () -> new Item(new Item.Properties().food(ModFoods.JIMMY_JOHNS)));
+
+    public static final RegistryObject<Item> DRAGON_STEW = ITEMS.register("dragon_stew",
+            () -> new Item(new Item.Properties().food(ModFoods.DRAGON_STEW)));
+
     // Creates Custom Item Example
     public static final RegistryObject<Item> METAL_DETECTOR =
             ITEMS.register("metal_detector", () -> new MetalDetectorItem(new Item.Properties().durability(64)));
