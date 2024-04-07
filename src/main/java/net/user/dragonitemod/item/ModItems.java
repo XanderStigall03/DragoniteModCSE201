@@ -28,6 +28,8 @@ public class ModItems {
     public static final RegistryObject<Item> DRAGONITE_SWORD = ITEMS.register("dragonite_sword",
             () -> new SwordItem(ModToolTiers.DRAGONITE, 4, 1, new Item.Properties()));
 
+    public static final RegistryObject<Item> DRAGONITE_PICKAXE = ITEMS.register("dragonite_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.DRAGONITE, 2, 1, new Item.Properties()));
     public static final RegistryObject<Item> DRAGONITE_AXE = ITEMS.register("dragonite_axe",
             () -> new AxeItem(ModToolTiers.DRAGONITE, 7, 1, new Item.Properties()));
 
