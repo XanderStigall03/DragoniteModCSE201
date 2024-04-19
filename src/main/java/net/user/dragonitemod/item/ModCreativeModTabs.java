@@ -34,6 +34,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.DRAGONITE_HOE.get());
                         pOutput.accept(ModItems.JIMMY_JOHNS.get());
                         pOutput.accept(ModItems.DRAGON_STEW.get());
+                        pOutput.accept(ModItems.FIREBALL.get());
 
                         // Load blocks into mod tab display
                         pOutput.accept(ModBlocks.ORE_DRAGONITE.get());

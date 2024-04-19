@@ -1,6 +1,9 @@
 package net.user.dragonitemod;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.renderer.entity.EntityRenderer;
+import net.minecraft.client.renderer.entity.EntityRenderers;
+import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -13,6 +16,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.user.dragonitemod.block.ModBlocks;
+import net.user.dragonitemod.entity.ModEntities;
+import net.user.dragonitemod.entity.custom.FireballProjectileEntity;
 import net.user.dragonitemod.item.ModCreativeModTabs;
 import net.user.dragonitemod.item.ModItems;
 import org.slf4j.Logger;
@@ -72,7 +77,7 @@ public class DragoniteMod {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-
+            //EntityRenderers.register(ModEntities.FIREBALL_PROJECTILE.get(), ThrownItemRenderer::new);
         }
     }
 }

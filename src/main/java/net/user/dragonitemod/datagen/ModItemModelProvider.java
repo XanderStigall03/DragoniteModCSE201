@@ -1,5 +1,6 @@
 package net.user.dragonitemod.datagen;
 
+import net.minecraftforge.fml.common.Mod;
 import net.user.dragonitemod.DragoniteMod;
 import net.user.dragonitemod.block.ModBlocks;
 import net.user.dragonitemod.item.ModItems;
@@ -23,6 +24,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.RAW_DRAGONITE);
         simpleItem(ModItems.INGOT_DRAGONITE);
         simpleItem(ModItems.SCALE_DRAGON);
+//        simpleItem(ModItems.FIREBALL);
 
         simpleItem(ModItems.METAL_DETECTOR);
 
