@@ -4,11 +4,17 @@
   "item.dragonitemod.ingot_dragonite": "Dragonite Ingot",
   "item.dragonitemod.raw_dragonite": "Dragonite Chunk",
   "item.dragonitemod.metal_detector": "Metal Detector",
+  "item.dragonitemod.dragonite_bow": "Dragonite Bow",
   "item.dragonitemod.dragonite_sword": "Dragonite Sword",
   "item.dragonitemod.dragonite_pickaxe": "Dragonite Pickaxe",
   "item.dragonitemod.dragonite_shovel": "Dragonite Shovel",
   "item.dragonitemod.dragonite_axe": "Dragonite Axe",
   "item.dragonitemod.dragonite_hoe": "Dragonite Hoe",
+
+  "item.dragonitemod.dragonite_helmet": "Dragonite Helemt",
+  "item.dragonitemod.dragonite_chestplate": "Dragonite Chestplate",
+  "item.dragonitemod.dragonite_leggings": "Dragonite Leggings",
+  "item.dragonitemod.dragonite_boots": "Dragonite Boots",
 
   "item.dragonitemod.jimmy_johns": "Jimmy Johns",
   "item.dragonitemod.dragon_stew": "Dragon Stew",

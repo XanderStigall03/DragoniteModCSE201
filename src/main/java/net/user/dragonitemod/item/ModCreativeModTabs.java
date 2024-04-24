@@ -27,6 +27,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.INGOT_DRAGONITE.get());
                         pOutput.accept(ModItems.RAW_DRAGONITE.get());
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
+                        pOutput.accept(ModItems.DRAGONITE_BOW.get());
                         pOutput.accept(ModItems.DRAGONITE_SWORD.get());
                         pOutput.accept(ModItems.DRAGONITE_PICKAXE.get());
                         pOutput.accept(ModItems.DRAGONITE_AXE.get());
@@ -35,6 +36,11 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.JIMMY_JOHNS.get());
                         pOutput.accept(ModItems.DRAGON_STEW.get());
                         pOutput.accept(ModItems.FIREBALL.get());
+
+                        pOutput.accept(ModItems.DRAGONITE_HELMET.get());
+                        pOutput.accept(ModItems.DRAGONITE_CHESTPLATE.get());
+                        pOutput.accept(ModItems.DRAGONITE_LEGGINGS.get());
+                        pOutput.accept(ModItems.DRAGONITE_BOOTS.get());
 
                         // Load blocks into mod tab display
                         pOutput.accept(ModBlocks.ORE_DRAGONITE.get());
