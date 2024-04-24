@@ -58,7 +58,8 @@ public class ModItems {
     // Creates Custom Item Example
     public static final RegistryObject<Item> METAL_DETECTOR =
             ITEMS.register("metal_detector", () -> new MetalDetectorItem(new Item.Properties().durability(64)));
-
+    public static final RegistryObject<Item> DRAGONITE_BOW =
+            ITEMS.register("dragonite_bow",  () -> new BowItem(new Item.Properties().durability(64)));
     // Loads items into game
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

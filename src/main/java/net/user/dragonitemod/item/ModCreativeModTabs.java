@@ -27,6 +27,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.INGOT_DRAGONITE.get());
                         pOutput.accept(ModItems.RAW_DRAGONITE.get());
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
+                        pOutput.accept(ModItems.DRAGONITE_BOW.get());
                         pOutput.accept(ModItems.DRAGONITE_SWORD.get());
                         pOutput.accept(ModItems.DRAGONITE_PICKAXE.get());
                         pOutput.accept(ModItems.DRAGONITE_AXE.get());
