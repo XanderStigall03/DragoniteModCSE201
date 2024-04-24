@@ -29,7 +29,25 @@ public class ModItems {
             ITEMS.register("raw_dragonite", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> DRAGONITE_SWORD = ITEMS.register("dragonite_sword",
-            () -> new SwordItem(ModToolTiers.DRAGONITE, 4, 2, new Item.Properties()));
+            () -> new SwordItem(ModToolTiers.DRAGONITE, 4, 1, new Item.Properties()));
+
+    public static final RegistryObject<Item> DRAGONITE_PICKAXE = ITEMS.register("dragonite_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.DRAGONITE, 2, 1, new Item.Properties()));
+    public static final RegistryObject<Item> DRAGONITE_AXE = ITEMS.register("dragonite_axe",
+            () -> new AxeItem(ModToolTiers.DRAGONITE, 7, 1, new Item.Properties()));
+
+    public static final RegistryObject<Item> DRAGONITE_SHOVEL = ITEMS.register("dragonite_shovel",
+            () -> new ShovelItem(ModToolTiers.DRAGONITE, 0, 0, new Item.Properties()));
+
+    public static final RegistryObject<Item> DRAGONITE_HOE = ITEMS.register("dragonite_hoe",
+            () -> new HoeItem(ModToolTiers.DRAGONITE, 0, 0, new Item.Properties()));
+
+    // Joke item, Jimmy John's Sandwich
+    public static final RegistryObject<Item> JIMMY_JOHNS = ITEMS.register("jimmy_johns",
+            () -> new Item(new Item.Properties().food(ModFoods.JIMMY_JOHNS)));
+
+    public static final RegistryObject<Item> DRAGON_STEW = ITEMS.register("dragon_stew",
+            () -> new Item(new Item.Properties().food(ModFoods.DRAGON_STEW)));
 
     // Creates Custom Item Example
     public static final RegistryObject<Item> METAL_DETECTOR =

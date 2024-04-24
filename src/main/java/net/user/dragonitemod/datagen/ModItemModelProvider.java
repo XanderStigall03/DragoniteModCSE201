@@ -50,6 +50,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         handheldItem(ModItems.DRAGONITE_SWORD);
 
+
         trimmedArmorItem(ModItems.DRAGONITE_HELMET);
         trimmedArmorItem(ModItems.DRAGONITE_CHESTPLATE);
         trimmedArmorItem(ModItems.DRAGONITE_LEGGINGS);
@@ -101,6 +102,12 @@ public class ModItemModelProvider extends ItemModelProvider {
                                         "item/" + itemRegistryObject.getId().getPath()));
             });
         }
+
+        handheldItem(ModItems.DRAGONITE_PICKAXE);
+        handheldItem(ModItems.DRAGONITE_AXE);
+        handheldItem(ModItems.DRAGONITE_SHOVEL);
+        handheldItem(ModItems.DRAGONITE_HOE);
+
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
