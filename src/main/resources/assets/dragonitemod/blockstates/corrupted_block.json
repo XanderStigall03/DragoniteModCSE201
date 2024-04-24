@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "number=up": {
+      "model": "dragonitemod:block/corrupted_block_1"
+    },
+    "number=north": {
+      "model": "dragonitemod:block/corrupted_block_2"
+    },
+    "number=east": {
+      "model": "dragonitemod:block/corrupted_block_3"
+    },
+    "number=south": {
+      "model": "dragonitemod:block/corrupted_block_5"
+    },
+    "number=west": {
+      "model": "dragonitemod:block/corrupted_block_4"
+    },
+    "number=down": {
+      "model": "dragonitemod:block/corrupted_block_6"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "dragonitemod:block/corrupted_block_4",
+    "down": "dragonitemod:block/corrupted_block_3",
+    "north": "dragonitemod:block/corrupted_block_1",
+    "east": "dragonitemod:block/corrupted_block_5",
+    "south": "dragonitemod:block/corrupted_block_6",
+    "west": "dragonitemod:block/corrupted_block_2",
+    "particle": "dragonitemod:block/corrupted_block_4"
+  }
+}
