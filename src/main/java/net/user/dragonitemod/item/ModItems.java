@@ -19,6 +19,9 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, DragoniteMod.MOD_ID);
 
+    public static final RegistryObject<Item> DRAGONITE = ITEMS.register("dragonite",
+            () -> new Item(new Item.Properties()));
+
     // Create new items
     // Ex: public static final RegistryObject<Item> CODEREFNAME = ITEMS.register("itemidname", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SCALE_DRAGON =
@@ -58,6 +61,16 @@ public class ModItems {
     // Creates Custom Item Example
     public static final RegistryObject<Item> METAL_DETECTOR =
             ITEMS.register("metal_detector", () -> new MetalDetectorItem(new Item.Properties().durability(64)));
+
+    public static final RegistryObject<Item> DRAGONITE_HELMET = ITEMS.register("dragonite_helmet",
+            () -> new ArmorItem(ModArmorMaterials.DRAGONITE, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> DRAGONITE_CHESTPLATE = ITEMS.register("dragonite_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.DRAGONITE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> DRAGONITE_LEGGINGS = ITEMS.register("dragonite_leggings",
+            () -> new ArmorItem(ModArmorMaterials.DRAGONITE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> DRAGONITE_BOOTS = ITEMS.register("dragonite_boots",
+            () -> new ArmorItem(ModArmorMaterials.DRAGONITE, ArmorItem.Type.BOOTS, new Item.Properties()));
+
     public static final RegistryObject<Item> DRAGONITE_BOW =
             ITEMS.register("dragonite_bow",  () -> new BowItem(new Item.Properties().durability(64)));
     // Loads items into game
