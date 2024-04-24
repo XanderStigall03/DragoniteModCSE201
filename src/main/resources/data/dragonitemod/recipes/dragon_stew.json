@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "dragonitemod:scale_dragon",
+      "count": 3
+    }
+  ],
+  "result": {
+    "item": "dragonitemod:dragon_stew"
+  }
+}
