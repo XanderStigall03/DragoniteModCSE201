@@ -10,7 +10,7 @@ import net.user.dragonitemod.DragoniteMod;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    DRAGONITE("dragonite_layer_1", 26, new int[]{5,7,5,4}, 25,
+    DRAGONITE("dragonite", 26, new int[]{5,7,5,4}, 25,
     SoundEvents.ARMOR_EQUIP_GOLD, 1f, 0f, () -> Ingredient.of(ModItems.DRAGONITE.get()));
 
     private final String name;
