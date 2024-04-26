@@ -5,6 +5,7 @@ import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.user.dragonitemod.DragoniteMod;
+import net.user.dragonitemod.entity.client.DragonZombieModel;
 import net.user.dragonitemod.entity.client.ModModelLayers;
 import net.user.dragonitemod.entity.client.PigDragonModel;
 
@@ -13,5 +14,6 @@ public class ModEventBusClientEvents {
     @SubscribeEvent
     public static void registerLayer(EntityRenderersEvent.RegisterLayerDefinitions event) {
         event.registerLayerDefinition(ModModelLayers.PIGDRAGON_LAYER, PigDragonModel::createBodyLayer);
+        event.registerLayerDefinition(ModModelLayers.ZOMBIEDRAGON_LAYER, DragonZombieModel::createBodyLayer);
     }
 }

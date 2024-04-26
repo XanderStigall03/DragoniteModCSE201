@@ -18,6 +18,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.user.dragonitemod.block.ModBlocks;
 import net.user.dragonitemod.entity.ModEntities;
 import net.user.dragonitemod.entity.client.PigRenderer;
+import net.user.dragonitemod.entity.client.ZombieRenderer;
 import net.user.dragonitemod.entity.custom.FireballProjectileEntity;
 import net.user.dragonitemod.item.ModCreativeModTabs;
 import net.user.dragonitemod.item.ModItems;
@@ -82,6 +83,7 @@ public class DragoniteMod {
         public static void onClientSetup(FMLClientSetupEvent event)
         {
             EntityRenderers.register(ModEntities.PIGDRAGON.get(), PigRenderer::new);
+            EntityRenderers.register(ModEntities.ZOMBIEDRAGON.get(), ZombieRenderer::new);
             //EntityRenderers.register(ModEntities.FIREBALL_PROJECTILE.get(), ThrownItemRenderer::new);
         }
     }

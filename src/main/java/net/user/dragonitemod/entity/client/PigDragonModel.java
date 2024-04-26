@@ -75,7 +75,7 @@ public class PigDragonModel<T extends Entity> extends HierarchicalModel<T> {
 		this.animateWalk(ModAnimationDefinitions.animation, limbSwing, limbSwingAmount, 2f, 2.5f);
 
 		// Apply wing animations for the idle state
-		this.animate(((PigDragon) entity).idleAnimationState, ModAnimationDefinitions.idle, ageInTicks, 1f);
+		this.animate(((PigDragon) entity).idleAnimationState, ModAnimationDefinitions.animation, ageInTicks, 1f);
 	}
 
 	private void applyHeadRotation(float pNetHeadYaw, float pHeadPitch, float pAgeInTicks) {
