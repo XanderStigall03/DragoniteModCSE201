@@ -59,6 +59,7 @@ public class DragonZombieModel<T extends Entity> extends HierarchicalModel<T> {
 		this.animateWalk(ModAnimationDefinitions.zombiewalk, limbSwing, limbSwingAmount, 2f, 2.5f);
 
 		this.animate(((ZombieDragon) entity).idleAnimationState, ModAnimationDefinitions.zombiewalk, ageInTicks, 1f);
+		this.animate(((ZombieDragon) entity).attackAnimationState, ModAnimationDefinitions.zombiewalk, ageInTicks, 1f);
 	}
 
 	private void applyHeadRotation(float pNetHeadYaw, float pHeadPitch, float pAgeInTicks) {
