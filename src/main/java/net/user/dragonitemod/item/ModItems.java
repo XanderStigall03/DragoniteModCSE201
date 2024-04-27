@@ -10,6 +10,7 @@ import net.minecraftforge.registries.RegistryObject;
 import net.user.dragonitemod.DragoniteMod;
 import net.user.dragonitemod.entity.ModEntities;
 import net.user.dragonitemod.entity.custom.FireballProjectileEntity;
+import net.user.dragonitemod.item.custom.DragoniteBowItem;
 import net.user.dragonitemod.item.custom.FireballItem;
 import net.user.dragonitemod.item.custom.MetalDetectorItem;
 
@@ -71,8 +72,8 @@ public class ModItems {
     public static final RegistryObject<Item> DRAGONITE_BOOTS = ITEMS.register("dragonite_boots",
             () -> new ArmorItem(ModArmorMaterials.DRAGONITE, ArmorItem.Type.BOOTS, new Item.Properties()));
 
-    public static final RegistryObject<Item> DRAGONITE_BOW =
-            ITEMS.register("dragonite_bow",  () -> new BowItem(new Item.Properties().durability(64)));
+    public static final RegistryObject<Item> DRAGONITE_BOW = ITEMS.register("dragonite_bow",
+            () -> new BowItem(new Item.Properties().durability(500)));
     // Loads items into game
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
