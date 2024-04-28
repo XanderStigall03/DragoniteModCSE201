@@ -1,7 +1,7 @@
 ### <h1 style="color:white;">CSE 201 Project</h1>
 ## Installation Instructions
 ### 0. Install Git (if you don't have it already)
-##### If you don't have Git, you will be able to download it later but if you would like you can get it now [click here!](https://github.com/git-guides/install-git)
+##### If you don't have Git, you will be able to download it later but if you would like you can get it now by [clicking here!](https://github.com/git-guides/install-git)
 ### 1. Install IntelliJ
 ##### To run our program, it requires the installation of [IntelliJ CE](https://www.jetbrains.com/idea/download/#section=windows) since it is a free, robust IDE.
 ##### From here, make sure to select your operating system and follow the installation wizard.
