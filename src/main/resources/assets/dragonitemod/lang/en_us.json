@@ -25,6 +25,7 @@
   "block.dragonitemod.ore_endstone_dragonite": "Dragonite Endstone Ore",
   "block.dragonitemod.block_dragonite": "Dragonite Block",
   "block.dragonitemod.block_dragon_altar": "Dragon Altar",
+  "block.dragonitemod.corrupted_block": "Corrupted Block",
 
   "_comment3": "List of creative tabs with translations to load names in game",
   "creativetab.dragonite_tab": "Dragonite Mod"
