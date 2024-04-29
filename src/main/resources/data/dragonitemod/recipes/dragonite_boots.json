@@ -10,10 +10,11 @@
     "D": {
       "item": "dragonitemod:ingot_dragonite"
     },
-    "S" : {
+    "S": {
       "item": "dragonitemod:scale_dragon"
     }
   },
   "result": {
     "item": "dragonitemod:dragonite_helmet"
-  },
+  }
+}
