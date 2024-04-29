@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    "SDS",
+    "D D"
+  ],
+  "key": {
+    "D": {
+      "item": "dragonitemod:ingot_dragonite"
+    },
+    "S" : {
+      "item": "dragonitemod:scale_dragon"
+    }
+  },
+  "result": {
+    "item": "dragonitemod:dragonite_helmet"
+  },

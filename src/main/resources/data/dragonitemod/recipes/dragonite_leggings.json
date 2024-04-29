@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DDD",
+    "D D",
+    "D D"
+  ],
+  "key": {
+    "D": {
+      "item": "dragonitemod:ingot_dragonite"
+    }
+  },
+  "result": {
+    "item": "dragonitemod:dragonite_leggings"
+  }
+}
