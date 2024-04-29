@@ -1,0 +1,382 @@
+[29Apr2024 15:41:35.856] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\Xander\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.1.3, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[29Apr2024 15:41:35.860] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[29Apr2024 15:41:35.952] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[29Apr2024 15:41:36.012] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[29Apr2024 15:41:36.225] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[29Apr2024 15:41:36.302] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Xander/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[29Apr2024 15:41:36.338] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 3070/PCIe/SSE2 GL version 4.6.0 NVIDIA 546.33, NVIDIA Corporation
+[29Apr2024 15:41:36.544] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Xander\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.1.3\9775dc3f284cdb3e0d33b372c328c6ef88e434b0\javafmllanguage-1.20.1-47.1.3.jar is missing mods.toml file
+[29Apr2024 15:41:36.548] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Xander\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.1.3\d785f4087ec3be094fd5aed801f5366ca958a81b\lowcodelanguage-1.20.1-47.1.3.jar is missing mods.toml file
+[29Apr2024 15:41:36.552] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Xander\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.1.3\be60c45f3578cdf944a669c6ea16fd91bec50f2e\mclanguage-1.20.1-47.1.3.jar is missing mods.toml file
+[29Apr2024 15:41:36.555] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Xander\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.1.3\1aadc0201d8e97b107d9978c7fe066bb54bbb9dc\fmlcore-1.20.1-47.1.3.jar is missing mods.toml file
+[29Apr2024 15:41:36.622] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[29Apr2024 15:41:37.660] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Xander\.gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[29Apr2024 15:41:40.337] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 77 milliseconds
+[29Apr2024 15:41:41.598] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Xander/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[29Apr2024 15:41:41.599] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Xander/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[29Apr2024 15:41:41.613] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[29Apr2024 15:41:41.619] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[29Apr2024 15:41:41.726] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[29Apr2024 15:41:41.944] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.1.3, for MC 1.20.1 with MCP 20230612.114412
+[29Apr2024 15:41:41.945] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.1.3 Initialized
+[29Apr2024 15:41:42.611] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [dragonitemod]
+[29Apr2024 15:41:42.711] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[29Apr2024 15:41:42.830] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[29Apr2024 15:41:42.837] [Worker-Main-13/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[29Apr2024 15:41:42.943] [Worker-Main-15/ERROR] [net.minecraft.client.renderer.texture.SpriteLoader/]: Using missing texture, unable to load dragonitemod:block/corrupted_block_6
+java.io.IOException: Could not load image: Image not of any known type, or corrupt
+	at com.mojang.blaze3d.platform.NativeImage.read(NativeImage.java:138) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at com.mojang.blaze3d.platform.NativeImage.read(NativeImage.java:103) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at com.mojang.blaze3d.platform.NativeImage.read(NativeImage.java:94) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at net.minecraft.client.renderer.texture.SpriteLoader.loadSprite(SpriteLoader.java:139) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at net.minecraft.client.renderer.texture.atlas.SpriteSource$Output.lambda$add$0(SpriteSource.java:22) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[29Apr2024 15:41:42.944] [Worker-Main-1/ERROR] [net.minecraft.client.renderer.texture.SpriteLoader/]: Using missing texture, unable to load dragonitemod:block/corrupted_block_4
+java.io.IOException: Could not load image: Image not of any known type, or corrupt
+	at com.mojang.blaze3d.platform.NativeImage.read(NativeImage.java:138) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at com.mojang.blaze3d.platform.NativeImage.read(NativeImage.java:103) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at com.mojang.blaze3d.platform.NativeImage.read(NativeImage.java:94) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at net.minecraft.client.renderer.texture.SpriteLoader.loadSprite(SpriteLoader.java:139) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at net.minecraft.client.renderer.texture.atlas.SpriteSource$Output.lambda$add$0(SpriteSource.java:22) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[29Apr2024 15:41:42.944] [Worker-Main-15/ERROR] [net.minecraft.client.renderer.texture.SpriteLoader/]: Using missing texture, unable to load dragonitemod:block/corrupted_block_3
+java.io.IOException: Could not load image: Image not of any known type, or corrupt
+	at com.mojang.blaze3d.platform.NativeImage.read(NativeImage.java:138) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at com.mojang.blaze3d.platform.NativeImage.read(NativeImage.java:103) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at com.mojang.blaze3d.platform.NativeImage.read(NativeImage.java:94) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at net.minecraft.client.renderer.texture.SpriteLoader.loadSprite(SpriteLoader.java:139) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at net.minecraft.client.renderer.texture.atlas.SpriteSource$Output.lambda$add$0(SpriteSource.java:22) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[29Apr2024 15:41:42.944] [Worker-Main-2/ERROR] [net.minecraft.client.renderer.texture.SpriteLoader/]: Using missing texture, unable to load dragonitemod:block/corrupted_block_5
+java.io.IOException: Could not load image: Image not of any known type, or corrupt
+	at com.mojang.blaze3d.platform.NativeImage.read(NativeImage.java:138) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at com.mojang.blaze3d.platform.NativeImage.read(NativeImage.java:103) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at com.mojang.blaze3d.platform.NativeImage.read(NativeImage.java:94) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at net.minecraft.client.renderer.texture.SpriteLoader.loadSprite(SpriteLoader.java:139) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at net.minecraft.client.renderer.texture.atlas.SpriteSource$Output.lambda$add$0(SpriteSource.java:22) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[29Apr2024 15:41:42.945] [Worker-Main-2/ERROR] [net.minecraft.client.renderer.texture.SpriteLoader/]: Using missing texture, unable to load dragonitemod:block/corrupted_block_2
+java.io.IOException: Could not load image: Image not of any known type, or corrupt
+	at com.mojang.blaze3d.platform.NativeImage.read(NativeImage.java:138) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at com.mojang.blaze3d.platform.NativeImage.read(NativeImage.java:103) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at com.mojang.blaze3d.platform.NativeImage.read(NativeImage.java:94) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at net.minecraft.client.renderer.texture.SpriteLoader.loadSprite(SpriteLoader.java:139) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at net.minecraft.client.renderer.texture.atlas.SpriteSource$Output.lambda$add$0(SpriteSource.java:22) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[29Apr2024 15:41:42.945] [Worker-Main-1/ERROR] [net.minecraft.client.renderer.texture.SpriteLoader/]: Using missing texture, unable to load dragonitemod:block/corrupted_block_1
+java.io.IOException: Could not load image: Image not of any known type, or corrupt
+	at com.mojang.blaze3d.platform.NativeImage.read(NativeImage.java:138) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at com.mojang.blaze3d.platform.NativeImage.read(NativeImage.java:103) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at com.mojang.blaze3d.platform.NativeImage.read(NativeImage.java:94) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at net.minecraft.client.renderer.texture.SpriteLoader.loadSprite(SpriteLoader.java:139) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at net.minecraft.client.renderer.texture.atlas.SpriteSource$Output.lambda$add$0(SpriteSource.java:22) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1.jar%23191!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[29Apr2024 15:41:43.085] [Worker-Main-7/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture dragonitemod:item/fireball with size 64x65 limits mip level from 4 to 0
+[29Apr2024 15:41:43.342] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.1.3 Target: 47.2.0
+[29Apr2024 15:41:43.585] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'dragonitemod:dragonite#inventory' referenced from: dragonitemod:dragonite#inventory: java.io.FileNotFoundException: dragonitemod:models/item/dragonite.json
+[29Apr2024 15:41:43.585] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'dragonitemod:block/corrupted_block' referenced from: dragonitemod:corrupted_block#inventory: java.io.FileNotFoundException: dragonitemod:models/block/corrupted_block.json
+[29Apr2024 15:41:43.950] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model dragonitemod:corrupted_block#number=down:
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_1
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_2
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_3
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_4
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_5
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_6
+[29Apr2024 15:41:43.950] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model dragonitemod:corrupted_block#number=east:
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_1
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_2
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_3
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_4
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_5
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_6
+[29Apr2024 15:41:43.951] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model dragonitemod:corrupted_block#number=up:
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_1
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_2
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_3
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_4
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_5
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_6
+[29Apr2024 15:41:43.951] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model dragonitemod:corrupted_block#number=south:
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_1
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_2
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_3
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_4
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_5
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_6
+[29Apr2024 15:41:43.951] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model dragonitemod:corrupted_block#number=west:
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_1
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_2
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_3
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_4
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_5
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_6
+[29Apr2024 15:41:43.951] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model dragonitemod:corrupted_block#number=north:
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_1
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_2
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_3
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_4
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_5
+    minecraft:textures/atlas/blocks.png:dragonitemod:block/corrupted_block_6
+[29Apr2024 15:41:44.809] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[29Apr2024 15:41:44.809] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[29Apr2024 15:41:44.841] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on VoiceMeeter VAIO3 Input (VB-Audio VoiceMeeter VAIO3)
+[29Apr2024 15:41:44.842] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[29Apr2024 15:41:44.921] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[29Apr2024 15:41:44.927] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[29Apr2024 15:41:44.928] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[29Apr2024 15:41:44.928] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[29Apr2024 15:41:44.928] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[29Apr2024 15:41:44.930] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[29Apr2024 15:41:44.931] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[29Apr2024 15:41:44.931] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[29Apr2024 15:41:44.931] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[29Apr2024 15:41:45.007] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[29Apr2024 15:41:45.063] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[29Apr2024 15:41:45.066] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[29Apr2024 15:41:45.066] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[29Apr2024 15:41:45.197] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[29Apr2024 15:41:59.837] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[29Apr2024 15:41:59.846] [Render thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Found a missing id from the world dragonitemod:fireball_projectile
+[29Apr2024 15:41:59.848] [Render thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Found a missing id from the world dragonitemod:fireball
+[29Apr2024 15:41:59.863] [Render thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:entity_type
+	dragonitemod:fireball_projectile: 124
+
+[29Apr2024 15:41:59.864] [Render thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	dragonitemod:fireball: 1264
+
+[29Apr2024 15:41:59.865] [Render thread/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+
+There are 2 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+
+[29Apr2024 15:41:59.865] [Render thread/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:item:
+    dragonitemod:fireball
+
+Missing minecraft:entity_type:
+    dragonitemod:fireball_projectile
+
+
+[29Apr2024 15:41:59.865] [Render thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[29Apr2024 15:42:01.112] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[29Apr2024 15:42:01.169] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[29Apr2024 15:42:01.456] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[29Apr2024 15:42:01.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[29Apr2024 15:42:02.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[29Apr2024 15:42:03.881] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2024 15:42:03.918] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2024 15:42:03.918] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2024 15:42:03.936] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2024 15:42:04.212] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[29Apr2024 15:42:04.595] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[29Apr2024 15:42:04.596] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2393 ms
+[29Apr2024 15:42:04.673] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[29Apr2024 15:42:04.674] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[29Apr2024 15:42:04.764] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[29Apr2024 15:42:05.222] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[29Apr2024 15:42:05.247] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in .\saves\New World\stats\380df991-f603-344c-a090-369bad2a924a.json: Don't know what dragonitemod:fireball is
+[29Apr2024 15:42:05.309] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:8bb06b33] logged in with entity id 89 at (1006.808481653412, 69.0, 1111.556679210696)
+[29Apr2024 15:42:05.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[29Apr2024 15:42:05.814] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 130 advancements
+[29Apr2024 15:42:44.299] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 132 advancements
+[29Apr2024 15:42:50.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Monster Hunter]
+[29Apr2024 15:42:50.605] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Monster Hunter]
+[29Apr2024 15:42:50.657] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 163 advancements
+[29Apr2024 15:43:42.796] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[29Apr2024 15:43:42.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Apr2024 15:43:42.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Apr2024 15:43:42.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Apr2024 15:44:33.596] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[29Apr2024 15:44:33.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Apr2024 15:44:33.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Apr2024 15:44:33.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Apr2024 15:44:56.956] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 164 advancements
+[29Apr2024 15:46:01.351] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 175 advancements
+[29Apr2024 15:49:23.746] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[29Apr2024 15:49:23.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Apr2024 15:49:23.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Apr2024 15:49:23.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Apr2024 15:50:26.745] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[29Apr2024 15:50:26.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Apr2024 15:50:26.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Apr2024 15:50:26.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Apr2024 15:51:28.049] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 181 advancements
+[29Apr2024 15:55:13.446] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[29Apr2024 15:55:13.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Apr2024 15:55:13.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Apr2024 15:55:13.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Apr2024 15:59:15.846] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[29Apr2024 15:59:15.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Apr2024 15:59:15.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Apr2024 15:59:15.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Apr2024 15:59:32.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Sweet Dreams]
+[29Apr2024 15:59:32.699] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Respawn point set
+[29Apr2024 15:59:32.699] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Sweet Dreams]
+[29Apr2024 15:59:32.707] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 181 advancements
+[29Apr2024 15:59:43.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set the world spawn point to 1011, 69, 1115 [0.0]]
+[29Apr2024 15:59:43.265] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the world spawn point to 1011, 69, 1115 [0.0]
+[29Apr2024 16:00:19.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [The End?]
+[29Apr2024 16:00:19.850] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [The End?]
+[29Apr2024 16:00:20.196] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 190 advancements
+[29Apr2024 16:00:20.874] [Server thread/INFO] [net.minecraft.world.level.dimension.end.EndDragonFight/]: Scanning for legacy world dragon fight...
+[29Apr2024 16:00:20.875] [Server thread/INFO] [net.minecraft.world.level.dimension.end.EndDragonFight/]: Found that the dragon has not yet been killed in this world.
+[29Apr2024 16:01:23.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 238 block(s)]
+[29Apr2024 16:01:23.079] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Successfully filled 238 block(s)
+[29Apr2024 16:01:34.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 9810 block(s)]
+[29Apr2024 16:01:34.444] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Successfully filled 9810 block(s)
+[29Apr2024 16:01:45.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 9761 block(s)]
+[29Apr2024 16:01:45.918] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Successfully filled 9761 block(s)
+[29Apr2024 16:01:53.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 9912 block(s)]
+[29Apr2024 16:01:53.648] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Successfully filled 9912 block(s)
+[29Apr2024 16:02:02.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 6550 block(s)]
+[29Apr2024 16:02:02.317] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Successfully filled 6550 block(s)
+[29Apr2024 16:02:50.334] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No entity was found
+[29Apr2024 16:02:55.458] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No entity was found
+[29Apr2024 16:03:10.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was killed
+[29Apr2024 16:03:10.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed Dev]
+[29Apr2024 16:03:10.883] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was killed
+[29Apr2024 16:03:10.884] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed Dev
+[29Apr2024 16:03:11.969] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[29Apr2024 16:03:11.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Apr2024 16:03:11.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Apr2024 16:03:11.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Apr2024 16:03:16.397] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[29Apr2024 16:03:16.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Apr2024 16:03:16.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Apr2024 16:03:16.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Apr2024 16:03:22.196] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[29Apr2024 16:03:22.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Apr2024 16:03:22.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Apr2024 16:03:22.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Apr2024 16:03:23.351] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[29Apr2024 16:03:23.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[29Apr2024 16:03:23.357] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[29Apr2024 16:03:23.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[29Apr2024 16:03:23.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[29Apr2024 16:03:23.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[29Apr2024 16:03:23.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Apr2024 16:03:23.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Apr2024 16:03:23.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Apr2024 16:03:23.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[29Apr2024 16:03:23.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[29Apr2024 16:03:23.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[29Apr2024 16:03:23.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[29Apr2024 16:06:07.724] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[29Apr2024 16:06:08.435] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[29Apr2024 16:06:08.452] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[29Apr2024 16:06:08.722] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[29Apr2024 16:06:08.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[29Apr2024 16:06:09.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[29Apr2024 16:06:09.708] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2024 16:06:09.708] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2024 16:06:10.240] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2024 16:06:10.618] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[29Apr2024 16:06:10.622] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1426 ms
+[29Apr2024 16:06:10.626] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[29Apr2024 16:06:10.626] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[29Apr2024 16:06:10.878] [Netty Local Client IO #1/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[29Apr2024 16:06:10.884] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:3a9efaa4] logged in with entity id 5245 at (1012.0867703018869, 69.0, 1114.0682078792204)
+[29Apr2024 16:06:10.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[29Apr2024 16:06:11.052] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 190 advancements
+[29Apr2024 16:06:39.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Summoned new entity.dragonitemod.pigdragon]
+[29Apr2024 16:06:39.943] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Summoned new entity.dragonitemod.pigdragon
+[29Apr2024 16:06:48.326] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Can't find element 'dragonitemod:' of type 'minecraft:entity_type'
+[29Apr2024 16:06:54.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Summoned new entity.dragonitemod.zombiedragon]
+[29Apr2024 16:06:54.109] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Summoned new entity.dragonitemod.zombiedragon
+[29Apr2024 16:07:14.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gave 2 [Command Block] to Dev]
+[29Apr2024 16:07:14.200] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gave 2 [Command Block] to Dev
+[29Apr2024 16:07:41.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Take Aim]
+[29Apr2024 16:07:41.828] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Take Aim]
+[29Apr2024 16:07:41.878] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 190 advancements
+[29Apr2024 16:07:55.718] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[29Apr2024 16:07:55.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Apr2024 16:07:55.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Apr2024 16:07:55.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Apr2024 16:08:01.269] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[29Apr2024 16:08:01.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Apr2024 16:08:01.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Apr2024 16:08:01.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Apr2024 16:08:13.220] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[29Apr2024 16:08:13.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Apr2024 16:08:13.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Apr2024 16:08:13.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Apr2024 16:08:22.196] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Command set: summon dragonitemod:pigdragon 1007.79 69.00 1110.38
+[29Apr2024 16:08:27.019] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[29Apr2024 16:08:27.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Apr2024 16:08:27.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Apr2024 16:08:27.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Apr2024 16:08:34.274] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Command set: summon dragonitemod:zombiedragon 1011.15 69.00 1110.28
+[29Apr2024 16:08:37.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Summoned new entity.dragonitemod.zombiedragon]
+[29Apr2024 16:08:37.623] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Summoned new entity.dragonitemod.zombiedragon]
+[29Apr2024 16:08:41.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Summoned new entity.dragonitemod.pigdragon]
+[29Apr2024 16:08:41.970] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Summoned new entity.dragonitemod.pigdragon]
+[29Apr2024 16:09:28.418] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[29Apr2024 16:09:28.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Apr2024 16:09:28.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Apr2024 16:09:28.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Apr2024 16:09:32.576] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Command set: summon dragonitemod:pigdragon 1007.79 69.00 1107.38
+[29Apr2024 16:09:34.018] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[29Apr2024 16:09:34.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Apr2024 16:09:34.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Apr2024 16:09:34.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Apr2024 16:09:37.498] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Command set: summon dragonitemod:zombiedragon 1011.15 69.00 1107.28
+[29Apr2024 16:09:38.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Summoned new entity.dragonitemod.zombiedragon]
+[29Apr2024 16:09:38.475] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Summoned new entity.dragonitemod.zombiedragon]
+[29Apr2024 16:09:39.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Summoned new entity.dragonitemod.pigdragon]
+[29Apr2024 16:09:39.774] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Summoned new entity.dragonitemod.pigdragon]
+[29Apr2024 16:10:11.027] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 196 advancements
+[29Apr2024 16:10:32.518] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[29Apr2024 16:10:32.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Apr2024 16:10:32.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Apr2024 16:10:32.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Apr2024 16:10:33.024] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[29Apr2024 16:10:33.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[29Apr2024 16:10:33.030] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[29Apr2024 16:10:33.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[29Apr2024 16:10:33.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[29Apr2024 16:10:33.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[29Apr2024 16:10:33.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Apr2024 16:10:33.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Apr2024 16:10:33.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Apr2024 16:10:33.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[29Apr2024 16:10:33.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[29Apr2024 16:10:33.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[29Apr2024 16:10:33.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[29Apr2024 16:10:41.204] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
