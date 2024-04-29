@@ -1,6 +1,0 @@
-{
-  "parent": "dragonitemod:item/dragonite_bow",
-  "textures": {
-    "layer0": "dragonite_mod:item/dragonite_bow_pulling_0"
-  }
-}

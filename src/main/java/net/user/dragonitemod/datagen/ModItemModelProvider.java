@@ -27,7 +27,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 //        simpleItem(ModItems.FIREBALL);
 
         simpleItem(ModItems.METAL_DETECTOR);
-        simpleItem(ModItems.DRAGONITE_BOW);
+        handheldItem(ModItems.DRAGONITE_BOW);
 
         handheldItem(ModItems.DRAGONITE_SWORD);
         handheldItem(ModItems.DRAGONITE_PICKAXE);

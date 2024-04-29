@@ -73,7 +73,7 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.DRAGONITE, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     public static final RegistryObject<Item> DRAGONITE_BOW = ITEMS.register("dragonite_bow",
-            () -> new BowItem(new Item.Properties().durability(500)));
+            () -> new DragoniteBowItem(new Item.Properties().durability(500)));
     // Loads items into game
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

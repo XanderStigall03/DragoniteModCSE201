@@ -22,6 +22,7 @@ import net.user.dragonitemod.entity.client.ZombieRenderer;
 import net.user.dragonitemod.entity.custom.FireballProjectileEntity;
 import net.user.dragonitemod.item.ModCreativeModTabs;
 import net.user.dragonitemod.item.ModItems;
+import net.user.dragonitemod.loot.ModLootModifiers;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -45,6 +46,8 @@ public class DragoniteMod {
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+
+        ModLootModifiers.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
