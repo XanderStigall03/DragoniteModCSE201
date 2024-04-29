@@ -19,7 +19,6 @@ import net.user.dragonitemod.block.ModBlocks;
 import net.user.dragonitemod.entity.ModEntities;
 import net.user.dragonitemod.entity.client.PigRenderer;
 import net.user.dragonitemod.entity.client.ZombieRenderer;
-import net.user.dragonitemod.entity.custom.FireballProjectileEntity;
 import net.user.dragonitemod.item.ModCreativeModTabs;
 import net.user.dragonitemod.item.ModItems;
 import net.user.dragonitemod.loot.ModLootModifiers;

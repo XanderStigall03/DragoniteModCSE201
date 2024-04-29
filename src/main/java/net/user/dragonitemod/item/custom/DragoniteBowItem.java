@@ -53,7 +53,7 @@ public class DragoniteBowItem extends BowItem {
                         }
 
                         {
-                            abstractarrow.setBaseDamage(abstractarrow.getBaseDamage() + (double) 2 * 0.5 + 500);
+                            abstractarrow.setBaseDamage(abstractarrow.getBaseDamage() + (double) 2 * 0.5 + 10);
                         }
                         {
                             abstractarrow.setKnockback(3);

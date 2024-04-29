@@ -2,19 +2,22 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "   ",
-    "SDS",
-    "D D"
+    "NNN",
+    "#O#",
+    "###"
   ],
   "key": {
-    "D": {
+    "#": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "O": {
       "item": "dragonitemod:ingot_dragonite"
     },
-    "S": {
+    "N": {
       "item": "dragonitemod:scale_dragon"
     }
   },
   "result": {
-    "item": "dragonitemod:dragonite_boots"
+    "item": "dragonitemod:block_dragon_altar"
   }
 }

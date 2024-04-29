@@ -1,17 +1,12 @@
 package net.user.dragonitemod.item;
 
-import net.minecraft.client.renderer.entity.ThrownItemRenderer;
-import net.minecraft.world.entity.projectile.Fireball;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.user.dragonitemod.DragoniteMod;
-import net.user.dragonitemod.entity.ModEntities;
-import net.user.dragonitemod.entity.custom.FireballProjectileEntity;
 import net.user.dragonitemod.item.custom.DragoniteBowItem;
-import net.user.dragonitemod.item.custom.FireballItem;
 import net.user.dragonitemod.item.custom.MetalDetectorItem;
 
 public class ModItems {
@@ -49,8 +44,8 @@ public class ModItems {
     public static final RegistryObject<Item> DRAGONITE_HOE = ITEMS.register("dragonite_hoe",
             () -> new HoeItem(ModToolTiers.DRAGONITE, 0, 0, new Item.Properties()));
 
-    public static final RegistryObject<Item> FIREBALL = ITEMS.register("fireball",
-            () -> new FireballItem(new Item.Properties()));
+    //public static final RegistryObject<Item> FIREBALL = ITEMS.register("fireball",
+    //        () -> new FireballItem(new Item.Properties()));
 
     // Joke item, Jimmy John's Sandwich
     public static final RegistryObject<Item> JIMMY_JOHNS = ITEMS.register("jimmy_johns",

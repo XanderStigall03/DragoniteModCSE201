@@ -3,12 +3,15 @@
   "category": "misc",
   "pattern": [
     "D D",
-    "DDD",
-    "DDD"
+    "DSD",
+    "DSD"
   ],
   "key": {
     "D": {
       "item": "dragonitemod:ingot_dragonite"
+    },
+    "S": {
+      "item": "dragpmotemod:scale_dragon"
     }
   },
   "result": {
