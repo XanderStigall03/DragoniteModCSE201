@@ -1,0 +1,4 @@
+// 1.20.1	2024-04-29T14:46:21.7767384	Registries
+59bce7233bae6ad6f7e26cedef779019c4d360b9 data/dragonitemod/forge/biome_modifier/add_end_dragonite_ore.json
+09e923236418975bf69d5e09335097a8f1328dcf data/dragonitemod/worldgen/configured_feature/end_dragonite_ore.json
+e4d7ec2b91233161c136f2784d2e0f7c03ebbf1b data/dragonitemod/worldgen/placed_feature/end_dragonite_ore_placed.json
